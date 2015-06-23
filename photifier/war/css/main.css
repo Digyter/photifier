@@ -1,0 +1,110 @@
+span.title{
+	font-size:1.4em;
+}
+
+div.pageWrapper{
+}
+
+div.header{
+	display:block;
+	width:100%;
+	height:100px;
+	border-bottom: 2px solid #000;
+	background-color:#00aced;
+	padding:10px;
+}
+
+div.header h1{
+	margin:0;
+	color:#FFF;
+}
+
+div.main{
+	clear:left;
+	width:100%;
+	height:600px;
+	overflow:hidden;
+}
+
+div.twoColumn{
+	width:100%;
+	height:400px;
+	position:relative;
+}
+
+div.leftBar{
+	float:left;
+	display: inline-block;
+	height:100%;
+	width: 24%;
+	border-right: 2px solid #000;
+	padding:5px;
+	overflow: hidden;
+}
+
+div.content{
+	float:left;
+	display: inline-block;
+	width:74%;
+	overflow:hidden;
+}
+
+div.bottomBar{
+	border-top: 2px solid #000;
+	height:140px;
+	display:block;
+}
+
+div.clear{
+	clear:both;
+}
+
+div.image_list img{
+	max-width:140px;
+	max-height:140px;
+	cursor:pointer;
+	border:1px;
+}
+
+div.image_list img:hover{
+	max-width:140px;
+	max-height:140px;
+	cursor:pointer;
+	border:1px solid #00aced;
+}
+
+div.loading-message{
+	display:block;
+	width:200px;
+	height:50px;
+	margin-left:auto;	
+	margin-right:auto;
+	margin-top:20px;	
+	text-align:center;
+}
+
+div.leftBarHeader{
+	margin-bottom:20px;
+}
+
+div.leftBarHeader .btn-primary{
+	float:right;
+}
+
+div.leftBar .btn-default{
+	display:block;
+	width:100%;
+}
+
+div.preview img{
+	margin-left:auto;
+	margin-right:auto;
+	max-height:250px;
+}
+
+div.album_info{
+	display:block;
+	width:100%;
+	padding: 5px;
+	border-bottom:1px solid #000;
+}

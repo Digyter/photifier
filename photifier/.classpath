@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry including="**/*.java" kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry including="**/*.java" kind="src" output="target/test-classes" path="test">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="/home/bhong/workspace/photifydev/war/WEB-INF/lib/slim3-1.0.16.jar" sourcepath="libsrc/slim3-1.0.15-sources.jar"/>
+	<classpathentry exported="true" kind="con" path="com.google.appengine.eclipse.core.GAE_CONTAINER"/>
+	<classpathentry exported="true" kind="lib" path="war/WEB-INF/lib/scenic3-0.5.0.jar" sourcepath="libsrc/scenic3-0.5.0-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/bhong/workspace/scenic3demo/scenic3-sample/lib/junit-4.8.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/bhong/workspace/photifier/war/WEB-INF/lib/jsonic-1.2.4.jar"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
